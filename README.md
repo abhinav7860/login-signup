@@ -68,11 +68,12 @@ Select the repo → Deploy
 Add Firebase env variables in Vercel > Settings > Environment Variables
 
 ## 📸 UI Preview
-![image](https://github.com/user-attachments/assets/f0647222-0b6c-4bf4-b046-d2072de0882e)
 ![image](https://github.com/user-attachments/assets/51c2a258-ba20-4ca3-b67a-bcd6f33301eb)
 ![image](https://github.com/user-attachments/assets/0c9adc37-e77c-4e5a-b10b-ddbe4dd55cc4)
+![image](https://github.com/user-attachments/assets/f0647222-0b6c-4bf4-b046-d2072de0882e)
 ![image](https://github.com/user-attachments/assets/ef5a3bba-5f9d-43df-b9b6-d8fcfff053ae)
-
+ Images uploaded inside a `/screenshots/` folder in the repo.
+ 
 🙌 Credits
 Aurora shader animation inspired by @gannonman's GLSL work
 WebGL rendering powered by OGL
