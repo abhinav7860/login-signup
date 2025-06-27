@@ -32,6 +32,7 @@ Create a Firebase project at https://firebase.google.com, enable Email/Password 
 
 Create a .env file in the root directory:
 
+
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your_project_id
@@ -39,13 +40,14 @@ VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
-IMPORTANT: Don’t commit .env. Make sure .gitignore includes:
 
 5. Start the dev server
+6. 
 npm run dev
 Open in browser: http://localhost:5173
 
 🧠 Features
+
 🔐 Secure login/signup via Firebase
 👤 Protected routes with React Router
 🌈 Auto-changing Aurora background every 10s
@@ -70,12 +72,10 @@ src/
 └── App.jsx           # Main App & Routes
 
 🚀 Deploy to Vercel
-Push your code to GitHub
 
-Go to vercel.com/import
-
-Select the repo → Deploy
-
+Push your code to GitHub.
+Go to vercel.com/import.
+Select the repo → Deploy.
 Add Firebase env variables in Vercel > Settings > Environment Variables
 
 ## 📸 UI Preview
@@ -86,6 +86,7 @@ Add Firebase env variables in Vercel > Settings > Environment Variables
  Images uploaded inside a `/screenshots/` folder in the repo.
  
 🙌 Credits
+
 Aurora shader animation inspired by @gannonman's GLSL work
 WebGL rendering powered by OGL
 UI inspired by modern Auth UX patterns
