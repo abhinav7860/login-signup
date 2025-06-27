@@ -40,8 +40,7 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
 
-6. Start the dev server
-7. 
+6. Start the dev server:
 npm run dev
 Open in browser: http://localhost:5173
 
