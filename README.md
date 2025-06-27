@@ -27,10 +27,10 @@ cd login-signup
 2. Install dependencies
 npm install
 
-4. Configure Firebase
+3. Configure Firebase
 Create a Firebase project at https://firebase.google.com, enable Email/Password Auth and Firestore.
 
-5.Create a .env file in the root directory:
+4.Create a .env file in the root directory:
 
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
@@ -40,7 +40,7 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
 
-6. Start the dev server:
+5. Start the dev server:
 npm run dev
 Open in browser: http://localhost:5173
 
