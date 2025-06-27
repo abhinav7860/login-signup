@@ -54,7 +54,7 @@ Open in browser: http://localhost:5173
 📱 Fully responsive design
 
 
-##📁 Folder Structure
+📁 Folder Structure
 
 
 src/
@@ -86,14 +86,14 @@ Add Firebase env variables in Vercel > Settings > Environment Variables
 ![image](https://github.com/user-attachments/assets/ef5a3bba-5f9d-43df-b9b6-d8fcfff053ae)
  Images uploaded inside a `/screenshots/` folder in the repo.
  
-##🙌 Credits
+🙌 Credits
 
 Aurora shader animation inspired by @gannonman's GLSL work
 WebGL rendering powered by OGL
 UI inspired by modern Auth UX patterns
 
-##📄 License
+📄 License
 This project is licensed under the MIT License.
 
-##✨ Author
+✨ Author
 Built by Abhinav Sabu
