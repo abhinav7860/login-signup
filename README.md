@@ -31,6 +31,7 @@ npm install
 Create a Firebase project at https://firebase.google.com, enable Email/Password Auth and Firestore.
 
 Create a .env file in the root directory:
+
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your_project_id
@@ -52,19 +53,29 @@ Open in browser: http://localhost:5173
 📱 Fully responsive design
 
 📁 Folder Structure
+
 src/
 │
+
 ├── components/       # InputField, SubmitButton, etc.
+
 ├── contexts/         # AuthContext
+
 ├── pages/            # LoginPage, SignupPage, SuccessPage
+
 ├── aurora/           # Aurora.js + GLSL shaders
+
 ├── firebase.js       # Firebase initialization
+
 └── App.jsx           # Main App & Routes
 
 🚀 Deploy to Vercel
 Push your code to GitHub
+
 Go to vercel.com/import
+
 Select the repo → Deploy
+
 Add Firebase env variables in Vercel > Settings > Environment Variables
 
 ## 📸 UI Preview
